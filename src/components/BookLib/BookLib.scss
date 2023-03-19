@@ -1,0 +1,41 @@
+.BookLib {
+    margin: 20px;
+    padding: 10px 25px;
+    border: 3px solid;
+
+    .Books-wrapper {
+
+        .books {
+            padding: 15px;
+            margin-bottom: 30px;
+            border: 1px solid;
+        }
+    }
+
+    .add-book {
+        margin-top: 30px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}
+input,
+select,
+button {
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+}

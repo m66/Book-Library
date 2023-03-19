@@ -1,0 +1,31 @@
+.WriterList{
+    margin: 20px;
+    padding: 10px 25px;
+    border: 3px solid;
+
+    
+    .writers-wrapper {
+
+        .writers {
+            padding: 15px;
+            margin-bottom: 30px;
+            border: 1px solid;
+        }
+    }
+
+    .add-writer {
+        margin-top: 30px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+
+}
